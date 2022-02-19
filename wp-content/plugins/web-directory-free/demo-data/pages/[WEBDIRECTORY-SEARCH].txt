@@ -1,0 +1,22 @@
+Hide categories and locations search, example keywords  "school, florist, john"
+[webdirectory-search show_categories_search=0 show_locations_search=0 keywords_search_examples="school, florist, john"]
+
+&#91;webdirectory-search show_categories_search=0 show_locations_search=0 keywords_search_examples="school, florist, john"&#93;
+
+&nbsp;
+Default search values for category, address fields and radius slider.
+
+&#91;webdirectory-search category="business-services" address="1600 Amphitheatre Parkway Mountain View, CA 94043" radius="5"&#93;
+
+[webdirectory-search category="business-services" address="1600 Amphitheatre Parkway Mountain View, CA 94043" radius="5"]
+
+&nbsp;
+Hide keywords, address, locations search fields, search button and radius slider. Leave only categories search.
+
+&#91;webdirectory-search show_categories_search=1 show_locations_search=0 show_address_search=0 show_keywords_search=0 show_radius_search=0 hide_search_button=1&#93;
+
+[webdirectory-search show_categories_search=1 show_locations_search=0 show_address_search=0 show_keywords_search=0 show_radius_search=0 hide_search_button=1]
+
+&nbsp;
+
+Full list of search shortcode parameters <a href="http://www.salephpscripts.com/wordpress_directory/demo/shortcodes/">here</a>.

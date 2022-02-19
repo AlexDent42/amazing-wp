@@ -1,0 +1,7 @@
+Display all existing markers using AJAX loading, start from 'LA, USA', just enable clusters.
+
+Main feature of this page: the map loads only needed map markers, those visible in the viewport of the map. Each drag or zoom changing of the map loads new markers. This effect due to ajax_loading=1 parameter in the map shortcode. ajax_markers_loading=1 parameter gives an ability to load marker info window after the click on marker. All these effects give increase of performance and allow to process thousands of markers.
+
+&#091;webdirectory-map height=650 clusters=1 ajax_loading=1 ajax_markers_loading=1 start_latitude=34.0568645 start_longitude=-118.3923244 start_zoom=10 map_style="Gowalla"&#093;
+
+[webdirectory-map height=650 clusters=1 ajax_loading=1 ajax_markers_loading=1 start_latitude=34.0568645 start_longitude=-118.3923244 start_zoom=10 map_style="Gowalla"]

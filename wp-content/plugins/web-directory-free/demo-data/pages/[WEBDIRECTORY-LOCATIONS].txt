@@ -1,0 +1,5 @@
+List all states of USA - parent="usa", where "usa" is the slug of predefined location, also ID can be used here.
+
+&#091;webdirectory-locations parent="usa" columns=3 count=1&#093;
+
+[webdirectory-locations parent="usa" columns=3 count=1]

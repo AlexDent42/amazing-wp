@@ -1,0 +1,267 @@
+header.w2dc-listing-header h2 {
+	font-size: 20px;
+}
+
+div.w2dc-content a,
+div.w2dc-content a:visited,
+div.w2dc-content a:focus,
+div.w2dc-content .w2dc-pagination > li > a,
+div.w2dc-content .w2dc-pagination > li > a:visited,
+div.w2dc-content .w2dc-pagination > li > a:focus,
+div.w2dc-content .w2dc-btn-default, div.w2dc-content div.w2dc-btn-default:visited, div.w2dc-content .w2dc-btn-default:focus,
+div.w2dc-content.w2dc-terms-menu .w2dc-categories-root a,
+div.w2dc-content.w2dc-terms-menu .w2dc-categories-root a:visited,
+div.w2dc-content.w2dc-terms-menu .w2dc-categories-root a:focus,
+div.w2dc-content.w2dc-terms-menu .w2dc-locations-root a,
+div.w2dc-content.w2dc-terms-menu .w2dc-locations-root a:visited,
+div.w2dc-content.w2dc-terms-menu .w2dc-locations-root a:focus {
+	color: #2393ba;
+}
+div.w2dc-content a:hover,
+div.w2dc-content .w2dc-pagination > li > a:hover,
+div.w2dc-content.w2dc-terms-menu .w2dc-categories-root a:hover,
+div.w2dc-content.w2dc-terms-menu .w2dc-locations-root a:hover,
+div.w2dc-content.w2dc-terms-menu .w2dc-categories-root.w2dc-category-highlighted a,
+div.w2dc-content.w2dc-terms-menu .w2dc-categories-root.w2dc-category-highlighted a:visited,
+div.w2dc-content.w2dc-terms-menu .w2dc-categories-root.w2dc-category-highlighted a:focus,
+div.w2dc-content.w2dc-terms-menu .w2dc-locations-root.w2dc-location-highlighted a,
+div.w2dc-content.w2dc-terms-menu .w2dc-locations-root.w2dc-location-highlighted a:visited,
+div.w2dc-content.w2dc-terms-menu .w2dc-locations-root.w2dc-location-highlighted a:focus {
+	color: #2a6496;
+}
+
+div.w2dc-content .w2dc-btn-primary,
+div.w2dc-content a.w2dc-btn-primary,
+div.w2dc-content input[type="submit"],
+div.w2dc-content input[type="button"],
+div.w2dc-content .w2dc-btn-primary:visited,
+div.w2dc-content a.w2dc-btn-primary:visited,
+div.w2dc-content input[type="submit"]:visited,
+div.w2dc-content input[type="button"]:visited,
+div.w2dc-content .w2dc-btn-primary:focus,
+div.w2dc-content a.w2dc-btn-primary:focus,
+div.w2dc-content input[type="submit"]:focus,
+div.w2dc-content input[type="button"]:focus,
+div.w2dc-content .w2dc-btn-primary:disabled,
+div.w2dc-content a.w2dc-btn-primary:disabled,
+div.w2dc-content .w2dc-btn-primary:disabled:focus,
+div.w2dc-content a.w2dc-btn-primary:disabled:focus,
+div.w2dc-content .w2dc-btn-primary:disabled:hover,
+div.w2dc-content a.w2dc-btn-primary:disabled:hover,
+form.w2dc-content .w2dc-btn-primary,
+form.w2dc-content a.w2dc-btn-primary,
+form.w2dc-content input[type="submit"],
+form.w2dc-content input[type="button"],
+form.w2dc-content .w2dc-btn-primary:visited,
+form.w2dc-content a.w2dc-btn-primary:visited,
+form.w2dc-content input[type="submit"]:visited,
+form.w2dc-content input[type="button"]:visited,
+form.w2dc-content .w2dc-btn-primary:focus,
+form.w2dc-content a.w2dc-btn-primary:focus,
+form.w2dc-content input[type="submit"]:focus,
+form.w2dc-content input[type="button"]:focus,
+form.w2dc-content .w2dc-btn-primary:disabled,
+form.w2dc-content a.w2dc-btn-primary:disabled,
+form.w2dc-content .w2dc-btn-primary:disabled:focus,
+form.w2dc-content a.w2dc-btn-primary:disabled:focus,
+form.w2dc-content .w2dc-btn-primary:disabled:hover,
+form.w2dc-content a.w2dc-btn-primary:disabled:hover,
+div.w2dc-content .wpcf7-form .wpcf7-submit,
+div.w2dc-content .wpcf7-form .wpcf7-submit:visited,
+div.w2dc-content .wpcf7-form .wpcf7-submit:focus {
+	color: #FFFFFF !important;
+	background-color: #2393ba !important;
+	background-image: none !important;
+	border-color: #0f7fa6 !important;
+}
+div.w2dc-content .w2dc-btn-primary:hover,
+div.w2dc-content a.w2dc-btn-primary:hover,
+div.w2dc-content input[type="submit"]:hover,
+div.w2dc-content input[type="button"]:hover,
+form.w2dc-content .w2dc-btn-primary:hover,
+form.w2dc-content a.w2dc-btn-primary:hover,
+form.w2dc-content input[type="submit"]:hover,
+form.w2dc-content input[type="button"]:hover,
+div.w2dc-content .wpcf7-form .wpcf7-submit:hover {
+	color: #FFFFFF !important;
+	background-color: #1f82a5 !important;
+	background-image: none !important;
+	border-color: #0b6e91 !important;
+	text-decoration: none !important;
+}
+
+.w2dc-content.w2dc-search-form {
+	background: rgba(107,200,200,1);
+}
+form.w2dc-content.w2dc-search-form,
+form.w2dc-content.w2dc-search-form a,
+form.w2dc-content.w2dc-search-form a:hover,
+form.w2dc-content.w2dc-search-form a:visited,
+form.w2dc-content.w2dc-search-form a:focus,
+form.w2dc-content.w2dc-search-form strong,
+form.w2dc-content a.w2dc-advanced-search-label,
+form.w2dc-content a.w2dc-advanced-search-label:hover,
+form.w2dc-content a.w2dc-advanced-search-label:visited,
+form.w2dc-content a.w2dc-advanced-search-label:focus {
+	color: #FFFFFF;
+}
+
+.w2dc-field-caption .w2dc-field-icon {
+	color: #2393ba;
+}
+.w2dc-featured-label {
+	background-color: #1f82a5;
+}
+.w2dc-sticky-ribbon span {
+	background-color: #1f82a5;
+}
+.w2dc-sticky-ribbon span::before {
+	border-left: 3px solid #0b6e91;
+	border-top: 3px solid #0b6e91;
+}
+.w2dc-sticky-ribbon span::after {
+	border-right: 3px solid #0b6e91;
+	border-top: 3px solid #0b6e91;
+}
+.w2dc-content select:not(.w2dc-week-day-input),
+.w2dc-content select:not(.w2dc-week-day-input):focus {
+	background-image:
+	linear-gradient(50deg, transparent 50%, #FFFFFF 50%),
+	linear-gradient(130deg, #FFFFFF 50%, transparent 50%),
+	linear-gradient(to right, #2393ba, #2393ba) !important;
+}
+.w2dc-content .w2dc-checkbox .w2dc-control-indicator,
+.w2dc-content .w2dc-radio .w2dc-control-indicator {
+	border-color: #2393ba;
+}
+.w2dc-content .w2dc-checkbox label input:checked ~ .w2dc-control-indicator,
+.w2dc-content .w2dc-radio label input:checked ~ .w2dc-control-indicator {
+	background: #2393ba;
+}
+.w2dc-content .ui-slider.ui-slider-horizontal .ui-widget-header {
+	background-color: #1f82a5;
+}
+.w2dc-content .ui-slider.ui-widget-content .ui-slider-handle.ui-state-default,
+.w2dc-content .ui-slider.ui-widget-content .ui-slider-handle.ui-state-default:focus,
+.w2dc-content .ui-slider.ui-widget-content .ui-slider-handle.ui-state-default:active,
+.w2dc-content .ui-slider.ui-widget-content .ui-slider-handle.ui-state-focus,
+.w2dc-content .ui-slider.ui-widget-content .ui-slider-handle.ui-state-hover {
+	border: 1px solid #1f82a5;
+	background-color: #2393ba;
+}
+.w2dc-content .w2dc-map-info-window-title {
+	background-color: #2393ba;
+}
+.w2dc-content .mapboxgl-popup-content {
+	width: 350px;
+}
+.w2dc-content .w2dc-category-label,
+.w2dc-content .w2dc-tag-label {
+	color: #2393ba;
+	border-color: #2393ba;
+}
+div.w2dc-content .w2dc-pagination > li.w2dc-active > a,
+div.w2dc-content .w2dc-pagination > li.w2dc-active > span,
+div.w2dc-content .w2dc-pagination > li.w2dc-active > a:hover,
+div.w2dc-content .w2dc-pagination > li.w2dc-active > span:hover,
+div.w2dc-content .w2dc-pagination > li.w2dc-active > a:focus,
+div.w2dc-content .w2dc-pagination > li.w2dc-active > span:focus {
+	background-color: #2393ba;
+	border-color: #2393ba;
+	color: #FFFFFF;
+}
+figure.w2dc-listing-logo figcaption {
+	background-color: #2393ba;
+}
+.w2dc-found-listings .w2dc-badge {
+	background-color: #2393ba;
+}
+.w2dc-content .w2dc-choose-plan:hover,
+.w2dc-choose-plan.w2dc-featured-level {
+	border: 4px solid #2393ba;
+}
+.w2dc-rating-avgvalue span {
+	background-color: #2393ba;
+}
+.w2dc-content.w2dc-search-map-form .w2dc-search-overlay {
+	background-color: rgba(35,147,186,0.8);
+}
+.w2dc-field-output-block-string .w2dc-field-phone-content,
+.w2dc-field-output-block-website .w2dc-field-content {
+	color: #2393ba;
+	font-weight: bold;
+}
+.w2dc-loader:before {
+	border-top-color: #2393ba;
+	border-bottom-color: #2393ba;
+}
+.w2dc-listings-carousel-button-left,
+.w2dc-listings-carousel-button-right,
+.w2dc-remove-from-favourites-list,
+.w2dc-content .w2dc-panel-heading.w2dc-choose-plan-head {
+	background-color: #2393ba;
+}
+.w2dc-page-header-widget {
+	background-color: #2393ba;
+}
+.w2dc-search-param {
+	background-color: #2393ba;
+}
+.w2dc-field-checkbox-item-checked span {
+	color: #2393ba;
+}
+.w2dc-bx-pager a.active img {
+	border: 1px solid #2393ba;
+}
+
+.w2dc-listings-block .w2dc-listing {
+	margin-bottom: 60px;
+}
+
+/* It works with devices width more than 768 pixels. */
+@media screen and (min-width: 768px) {
+	.w2dc-listings-block .w2dc-listing-logo-wrap {
+		width: 290px;
+			}
+	.rtl .w2dc-listings-block .w2dc-listing-logo-wrap {
+		margin-left: 20px;
+		margin-right: 0;
+	}
+	.w2dc-listings-block figure.w2dc-listing-logo .w2dc-listing-logo-img img {
+		width: 290px;
+	}
+	.w2dc-listings-list-view .w2dc-listing-text-content-wrap {
+				margin-left: 290px;
+		margin-right: 0;
+			}
+	.rtl .w2dc-listings-list-view .w2dc-listing-text-content-wrap {
+				margin-right: 290px;
+		margin-left: 0;
+			}
+}
+
+.w2dc-listings-grid figure.w2dc-listing-logo .w2dc-listing-logo-img-wrap:before {
+	padding-top: 56.25%;
+}
+
+.w2dc-content .w2dc-share-button img {
+	max-width: 40px;
+}
+.w2dc-content .w2dc-share-buttons {
+	height: 50px;
+}
+
+
+
+figure.w2dc-listing-logo .w2dc-listing-logo-img {
+	background-size: cover;
+}
+
+.w2dc-map-marker,
+.w2dc-map-marker-empty {
+	height: 40px;
+	width: 40px;
+}
+.w2dc-map-marker .w2dc-map-marker-icon {
+	font-size: 22px !important;
+}

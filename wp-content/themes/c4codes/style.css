@@ -1,0 +1,184 @@
+/**
+* Template name: c4codes
+*/
+
+
+body{
+ 
+    background: #f0edf3;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-nav
+{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+li{
+    margin: 0 20px;
+}
+
+h1, h2, h3, h4, h5{
+
+}
+p
+{
+    font-size: 14;
+}
+.post-card
+{
+    border:0; 
+    
+}
+
+.badge
+{
+    list-style-type: none;
+}
+
+.latest-posts-card
+{
+    padding: 20px 0;
+    border:0; 
+    background: 0;
+}
+.c4codes-header-top
+{
+    background: #8823D7;
+    font-size: 14px;
+    
+}
+
+.hero
+{
+    padding-top: 100px;
+}
+
+.c4codes-menu-links:hover
+{
+    color: rgb(250, 227, 247);
+}
+
+.menu-item .current-menu-item
+{
+    color: rgb(250, 227, 247);
+}
+.logo
+{
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+}
+.c4codes-menu-links
+{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.hero-fonts
+{
+    color:#fff;
+}
+
+.footer
+{
+    color:#fff;
+}
+.c4codes-menu
+{
+    margin: 5px;
+    display: flex;
+  justify-content: flex-end;
+}
+
+.hero-badge
+{
+    background: #8823D7;
+    list-style-type: none;
+}
+.hero-img
+{
+    background-color:#000;
+    opacity: 0.9;
+    
+}
+.nav-tabs 
+{
+    opacity: 0.9;
+}
+
+.footer-section
+{
+    background-color:#000;
+    opacity: 0.8;
+    
+}
+
+.card-body a
+{
+    color:rgb(24, 23, 24);
+}
+
+footer a{
+    color: #fff;
+    font-size: 16px;
+}
+
+footer a:hover
+{
+    color:#8823D7;
+}
+
+.category-section
+{
+    padding:120px 0;
+}
+
+.nav-links
+{
+    color: #fff;
+    background: #8823D7;
+    margin:0 auto;
+
+}
+.nav-links .page-numbers
+{
+    color: #fff;
+    margin: 0 15px;
+}
+
+.aside-section
+{
+    padding: 120px 0;
+  
+
+   
+}
+
+.aside-widget li
+{
+    list-style-type: none;
+}
+
+.aside-widget a
+{
+    color:#000;
+}

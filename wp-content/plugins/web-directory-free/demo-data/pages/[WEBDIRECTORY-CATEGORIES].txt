@@ -1,0 +1,15 @@
+&#091;webdirectory-categories depth=1 columns=4 count=1&#093;
+
+[webdirectory-categories depth=1 columns=4 count=1]
+
+&#091;webdirectory-categories depth=1 columns=3 count=1&#093;
+
+[webdirectory-categories depth=1 columns=3 count=1]
+
+&#091;webdirectory-categories depth=1 columns=2 count=1&#093;
+
+[webdirectory-categories depth=1 columns=2 count=1]
+
+&#091;webdirectory-categories depth=2 columns=3 count=1&#093;
+
+[webdirectory-categories depth=2 columns=3 count=1 grid=1 subcats=4]

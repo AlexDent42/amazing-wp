@@ -1,0 +1,8 @@
+We will start from 'Los Angeles, USA'. Then GeoLocation request of your browser will be accepted or automatic GeoLocation failed. All existing markers using AJAX loading.
+
+<strong>Shortcodes of this page:</strong>
+&#091;webdirectory-map uid="u1" height=650 ajax_loading=1 ajax_markers_loading=1 start_latitude=34.0568645 start_longitude=-118.3923244 start_zoom=10 geolocation=1 map_style="Avocado World"&#093;
+&#091;webdirectory-listings uid="u1" ajax_initial_load=1&#093;
+
+[webdirectory-map uid="u1" height=650 ajax_loading=1 ajax_markers_loading=1 start_latitude=34.0568645 start_longitude=-118.3923244 start_zoom=10 geolocation=1 map_style="Avocado World"]
+[webdirectory-listings uid="u1" ajax_initial_load=1]

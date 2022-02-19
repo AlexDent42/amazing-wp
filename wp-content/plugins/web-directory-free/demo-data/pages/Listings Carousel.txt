@@ -1,0 +1,13 @@
+&#091;webdirectory-listings carousel=1 carousel_slide_width=300&#093;
+
+[webdirectory-listings carousel=1 carousel_slide_width=300]
+
+
+&#091;webdirectory-listings carousel=1 hide_content=1 carousel_slide_width=300&#093;
+
+[webdirectory-listings carousel=1 hide_content=1 carousel_slide_width=300]
+
+
+&#091;webdirectory-listings carousel=1 hide_content=1 carousel_show_slides=2 carousel_slide_width=600 summary_on_logo_hover=1&#093;
+
+[webdirectory-listings carousel=1 hide_content=1 carousel_show_slides=2 carousel_slide_width=600 summary_on_logo_hover=1]

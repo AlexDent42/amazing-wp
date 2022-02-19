@@ -1,0 +1,82 @@
+.w2dc-map-info-window-title .w2dc-close-info-window {
+	float: left;
+}
+.w2dc-map-info-window-logo {
+	float: left;
+}
+.w2dc-map-field-icon {
+	padding-right: 0;
+	padding-left: 15px;
+}
+.w2dc-map-info-window-buttons a:first-child {
+	float: right;
+}
+.w2dc-map-info-window-buttons a:last-child {
+	float: left;
+}
+.w2dc-map-draw-panel-wrapper {
+	right: 0 !important;
+	padding-left: 6px;
+	padding-right: 0;
+}
+/************************ Map Search ************************/
+.w2dc-maps-canvas-wrapper.w2dc-map-search-input-enabled .w2dc-maps-canvas.w2dc-sidebar-open .w2dc-map-draw-panel {
+	padding-right: 0;
+}
+.w2dc-maps-canvas-wrapper.w2dc-map-search-input-enabled .w2dc-map-draw-panel {
+	padding-left: 0;
+	padding-right: $map-search-width;
+}
+.w2dc-map-search-wrapper {
+	right: 10px;
+	left: auto;
+}
+.w2dc-map-search-panel-wrapper {
+	margin-right: -$map-search-width;
+	margin-left: 0;
+}
+.w2dc-sidebar-open .w2dc-map-search-panel-wrapper {
+	margin-right: 0;
+}
+.w2dc-map-sidebar-toggle-container {
+	right: 0;
+	left: auto;
+	margin-right: 0;
+}
+.w2dc-map-sidebar-toggle {
+	transform: scaleX(1);
+}
+.w2dc-sidebar-open .w2dc-map-sidebar-toggle-container {
+	margin-right: $map-search-width;
+	margin-left: 0;
+}
+.w2dc-sidebar-open .w2dc-map-sidebar-toggle {
+	transform: scaleX(-1);
+}
+.w2dc-map-search-input-container {
+	left: auto;
+	right: 0;
+}
+.w2dc-content .w2dc-map-search-input-container input.w2dc-form-control,
+.w2dc-content .w2dc-map-search-input-container input.w2dc-form-control:focus {
+	padding-right: 55px;
+	padding-left: 0;
+}
+.w2dc-map-search-toggle::after {
+	right: auto;
+	left: 0;
+	border-right: 1px solid $border-color;
+	border-left: 0;
+}
+.w2dc-map-listing-logo-wrap {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+}
+.w2dc-map-listing-field-icon {
+	padding-left: 0;
+}
+
+.w2dc-content .mapboxgl-canvas {
+	position: relative !important;
+}

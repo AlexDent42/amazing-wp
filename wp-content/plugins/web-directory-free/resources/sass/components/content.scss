@@ -1,0 +1,13 @@
+.w2dc-content {
+	font-size: $content-font-size;
+	direction: ltr;
+	line-height: 1.7;
+	white-space: initial;
+}
+.w2dc-content img {
+	box-shadow: none;
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}

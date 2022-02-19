@@ -1,0 +1,6 @@
+4 columns grid. Display all listings in 4 columns grid. Default order by title.
+
+<strong>Shortcodes of this page:</strong>
+&#091;webdirectory-listings perpage="8" order_by="title" order="ASC" listings_view_type="grid" listings_view_grid_columns="4"&#093;
+
+[webdirectory-listings perpage="8" order_by="title" order="ASC" listings_view_type="grid" listings_view_grid_columns="4"]

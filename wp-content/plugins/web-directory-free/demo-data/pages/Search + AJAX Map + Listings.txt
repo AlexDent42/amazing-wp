@@ -1,0 +1,10 @@
+Main feature of this page: all 3 shortcodes connected by same value of "uid" parameter, so they work together. Listings load according to map markers, those visible on Google map. Each drag or zoom changing of the map loads new markers and listings. So we may say, that the map controls listings block. This effect due to ajax_loading=1 parameter in the map shortcode, also ajax_initial_load=1 parameter is required for listings shortcode, so listings shortcode will not load own listings before map markers. Search form works in AJAX mode only with enabled "Use AJAX loading" option in directory settings.
+
+&#091;webdirectory-search uid="u1" columns="2" advanced_open="0" address="Los Angeles, USA" radius=10&#093;
+&#091;webdirectory-map uid="u1" search_on_map=1 num="-1" map_style="Gowalla" show_summary_button="0" show_readmore_button="1" ajax_loading=1 start_zoom="10" height="650" radius_circle="1" start_latitude=34.0568645 start_longitude=-118.3923244&#093;
+&#091;webdirectory-listings uid="u1" perpage="10" order_by="post_date" order="ASC" listings_view_type="grid" listings_view_grid_columns="3" listing_thumb_width="300" ajax_initial_load=1&#093;
+
+
+[webdirectory-search uid="u1" columns="2" advanced_open="0" address="Los Angeles, USA" radius=10]
+[webdirectory-map uid="u1" search_on_map=1 num="-1" map_style="Gowalla" show_summary_button="0" show_readmore_button="1" ajax_loading=1 start_zoom="10" height="650" radius_circle="1" start_latitude=34.0568645 start_longitude=-118.3923244]
+[webdirectory-listings uid="u1" perpage="10" order_by="post_date" order="ASC" listings_view_type="grid" listings_view_grid_columns="3" listing_thumb_width="300" ajax_initial_load=1]
