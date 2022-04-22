@@ -8,8 +8,8 @@
 add_theme_support('title-tag'); // теперь тайтл управляется самим вп
 
 register_nav_menus(array( // Регистрируем 2 меню
-	'top' => 'Верхнее', // Верхнее
-	'bottom' => 'Внизу' // Внизу
+	'top' => 'Top', // Верхнее
+	'bottom' => 'Bottom' // Внизу
 ));
 
 add_theme_support('post-thumbnails'); // включаем поддержку миниатюр
@@ -17,7 +17,7 @@ set_post_thumbnail_size(250, 150); // задаем размер миниатюр
 add_image_size('big-thumb', 400, 400, true); // добавляем еще один размер картинкам 400x400 с обрезкой
 
 register_sidebar(array( // регистрируем левую колонку, этот кусок можно повторять для добавления новых областей для виджитов
-	'name' => 'Сайдбар', // Название в админке
+	'name' => 'SidebarA', // Название в админке
 	'id' => "sidebar", // идентификатор для вызова в шаблонах
 	'description' => 'Обычная колонка в сайдбаре', // Описалово в админке
 	'before_widget' => '<div id="%1$s" class="widget %2$s">', // разметка до вывода каждого виджета
@@ -106,7 +106,8 @@ add_action('wp_print_styles', 'add_styles'); // приклеем ф-ю на до
 if (!function_exists('add_styles')) { // если ф-я уже есть в дочерней теме - нам не надо её определять
 	function add_styles() { // добавление стилей
 	    if(is_admin()) return false; // если мы в админке - ничего не делаем
-	    wp_enqueue_style( 'bs', get_template_directory_uri().'/css/bootstrap.min.css' ); // бутстрап
+		wp_enqueue_style( 'icons', get_template_directory_uri().'/plugins/themefisher-font/style.css' );
+	    wp_enqueue_style( 'bootstrap', get_template_directory_uri().'/plugins/bootstrap/css/bootstrap.min.css' ); //DONE бутстрап
 		wp_enqueue_style( 'main', get_template_directory_uri().'/style.css' ); // основные стили шаблона
 	}
 }
